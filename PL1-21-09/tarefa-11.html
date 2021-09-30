@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style type="text/css">
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30pt;
+        }
+    </style>
+    <meta charset="utf-8">
+    <title>Tarefa 11</title>
+</head>
+
+<body>
+    <script language="javascript">
+        var p1, p2, media;
+        p1 = parseFloat(window.prompt("Digite a primeira nota: "));
+        p2 = parseFloat(window.prompt("Digite a segunda nota: "));
+        media = (p1 + p2) / 3;
+        media = media.toFixed(2)
+        if (media >= 6)
+            document.write("<h1>Parabéns você foi aprovado (a)<h1>");
+        else if (media < 6)
+            document.write("<h1>Você foi reprovado (a)<h1>");
+    </script>
+
+
+</body>
+
+</html>

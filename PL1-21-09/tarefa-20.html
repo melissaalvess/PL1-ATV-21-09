@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style type="text/css">
+    p{
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    </style>
+    <meta charset="utf-8">
+    <title>Tarefa 20</title>
+</head>
+
+<body>
+    <script language="javascript">
+        window.alert("Vamos imprimir uma sequência de fibonacci");
+        var ii, aa = 0, bb = 1, aAntigo;
+
+        for (ii = 0; ii < 30; ii++) {
+            aAntigo = aa;
+            aa = bb;
+            bb = aAntigo + bb;
+
+            document.write("<p>" + aa + "</p>");
+        }
+
+    </script>
+</body>
+
+</html>
