@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style type="text/css">
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30pt;
+        }
+    </style>
+    <meta charset="utf-8">
+    <title>Tarefa 12</title>
+</head>
+
+<body>
+    <script language="javascript">
+        var peso, altura, classificacaoIMC;
+        peso = parseFloat(window.prompt("Digite o seu peso: "));
+        altura = parseFloat(window.prompt("Digite a sua altura: "));
+        classificacaoIMC = peso / (altura * altura)
+        if (classificacaoIMC < 18.5)
+            document.write("<h1>Você está abaixo do peso<h1>");
+        else if (classificacaoIMC < 25)
+            document.write("<h1>Você está no peso ideal<h1>");
+        else if  (classificacaoIMC >= 25)
+            document.write("<h1>Você está acima do peso<h1>");
+
+    </script>
+
+
+</body>
+
+</html>
